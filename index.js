@@ -10,7 +10,7 @@ const DB = "mongodb+srv://SirBinary:SirBinary19@cluster0.polpz.mongodb.net/?retr
 
 
 //INIT
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 //middleware
